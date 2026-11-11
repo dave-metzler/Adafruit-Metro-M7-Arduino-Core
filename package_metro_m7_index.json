@@ -1,0 +1,140 @@
+{
+  "packages": [
+    {
+      "name": "metro-m7-unofficial",
+      "maintainer": "dave-metzler",
+      "websiteURL": "https://github.com/dave-metzler/Adafruit-Metro-M7-Arduino-Core",
+      "email": "",
+      "help": {
+        "online": "https://github.com/dave-metzler/Adafruit-Metro-M7-Arduino-Core"
+      },
+      "platforms": [
+        {
+          "name": "Adafruit Metro M7 iMX RT1011 (unofficial)",
+          "architecture": "imxrt1011",
+          "version": "0.1.0",
+          "category": "Contributed",
+          "url": "https://github.com/dave-metzler/Adafruit-Metro-M7-Arduino-Core/releases/download/v0.1.0/metro-m7-imxrt1011-0.1.0.zip",
+          "archiveFileName": "metro-m7-imxrt1011-0.1.0.zip",
+          "checksum": "SHA-256:da15c9a6c754ac789c635f99be8449ae03ecec3e4a03b41a87507c881ce2f566",
+          "size": "267151",
+          "boards": [
+            {
+              "name": "Adafruit Metro M7 (iMX RT1011) with microSD"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "metro-m7-unofficial",
+              "name": "xpack-arm-none-eabi-gcc",
+              "version": "15.2.1-1.1"
+            },
+            {
+              "packager": "metro-m7-unofficial",
+              "name": "metro-m7-tools",
+              "version": "0.1.0"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "xpack-arm-none-eabi-gcc",
+          "version": "15.2.1-1.1",
+          "systems": [
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v15.2.1-1.1/xpack-arm-none-eabi-gcc-15.2.1-1.1-linux-x64.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-15.2.1-1.1-linux-x64.tar.gz",
+              "checksum": "SHA-256:da6a49ad4003944b823c6c93702a8787c922ab34bd7e918ec0eaf6933a9b1ff6",
+              "size": "307090703"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v15.2.1-1.1/xpack-arm-none-eabi-gcc-15.2.1-1.1-linux-arm64.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-15.2.1-1.1-linux-arm64.tar.gz",
+              "checksum": "SHA-256:67980c7990eba7bb7ffdf39699102effd70889f5ac427be19a8c8a6c5fab2972",
+              "size": "302624714"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v15.2.1-1.1/xpack-arm-none-eabi-gcc-15.2.1-1.1-darwin-x64.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-15.2.1-1.1-darwin-x64.tar.gz",
+              "checksum": "SHA-256:5be906a5194c3173e145a58048e5607ffff947773237802b93e55e23c415f1b6",
+              "size": "298312329"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v15.2.1-1.1/xpack-arm-none-eabi-gcc-15.2.1-1.1-darwin-arm64.tar.gz",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-15.2.1-1.1-darwin-arm64.tar.gz",
+              "checksum": "SHA-256:574082d35e49a2bcbdc355836b2a3ae5e5bb3b9456c9f5e37177db2ab4aad870",
+              "size": "293820200"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v15.2.1-1.1/xpack-arm-none-eabi-gcc-15.2.1-1.1-win32-x64.zip",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-15.2.1-1.1-win32-x64.zip",
+              "checksum": "SHA-256:bae6a3d1667697ce750c3b13d6d26d80973ecedc2cc87bf04869e83447fd93ea",
+              "size": "335571206"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v15.2.1-1.1/xpack-arm-none-eabi-gcc-15.2.1-1.1-win32-x64.zip",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-15.2.1-1.1-win32-x64.zip",
+              "checksum": "SHA-256:bae6a3d1667697ce750c3b13d6d26d80973ecedc2cc87bf04869e83447fd93ea",
+              "size": "335571206"
+            }
+          ]
+        },
+        {
+          "name": "metro-m7-tools",
+          "version": "0.1.0",
+          "systems": [
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/dave-metzler/Adafruit-Metro-M7-Arduino-Core/releases/download/v0.1.0/metro-m7-tools-0.1.0-x86_64-linux-gnu.tar.bz2",
+              "archiveFileName": "metro-m7-tools-0.1.0-x86_64-linux-gnu.tar.bz2",
+              "checksum": "SHA-256:5d85b7074adccc185074d13b7e12f473c1f370bee54609af27cfa77c35d9eb1a",
+              "size": "740743"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/dave-metzler/Adafruit-Metro-M7-Arduino-Core/releases/download/v0.1.0/metro-m7-tools-0.1.0-aarch64-linux-gnu.tar.bz2",
+              "archiveFileName": "metro-m7-tools-0.1.0-aarch64-linux-gnu.tar.bz2",
+              "checksum": "SHA-256:fb305d86dd8506157e5318aea9e7b04f633d67ec1c64beeac68a2af0074927e7",
+              "size": "677798"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/dave-metzler/Adafruit-Metro-M7-Arduino-Core/releases/download/v0.1.0/metro-m7-tools-0.1.0-x86_64-apple-darwin.tar.bz2",
+              "archiveFileName": "metro-m7-tools-0.1.0-x86_64-apple-darwin.tar.bz2",
+              "checksum": "SHA-256:d0b9b392357c652a90c31a441fa8721d6970ca520c8660a7be0db905819286de",
+              "size": "750033"
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://github.com/dave-metzler/Adafruit-Metro-M7-Arduino-Core/releases/download/v0.1.0/metro-m7-tools-0.1.0-arm64-apple-darwin.tar.bz2",
+              "archiveFileName": "metro-m7-tools-0.1.0-arm64-apple-darwin.tar.bz2",
+              "checksum": "SHA-256:223a1d8ee50b3fa6cae2892ada0756c5aef38f00e1988f2d3668ff641e67474d",
+              "size": "705073"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/dave-metzler/Adafruit-Metro-M7-Arduino-Core/releases/download/v0.1.0/metro-m7-tools-0.1.0-i686-mingw32.tar.bz2",
+              "archiveFileName": "metro-m7-tools-0.1.0-i686-mingw32.tar.bz2",
+              "checksum": "SHA-256:7557508ffeb6bd5a798de2feaccd497cb69c60c40338779737492718e601f708",
+              "size": "763146"
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/dave-metzler/Adafruit-Metro-M7-Arduino-Core/releases/download/v0.1.0/metro-m7-tools-0.1.0-i686-mingw32.tar.bz2",
+              "archiveFileName": "metro-m7-tools-0.1.0-i686-mingw32.tar.bz2",
+              "checksum": "SHA-256:7557508ffeb6bd5a798de2feaccd497cb69c60c40338779737492718e601f708",
+              "size": "763146"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
